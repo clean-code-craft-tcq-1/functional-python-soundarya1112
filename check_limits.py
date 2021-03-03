@@ -22,9 +22,9 @@ def battery_is_ok(battery_inputs):
             return False
 
 if __name__ == '__main__':
-        assert(battery_is_ok({'temperature': 15,'state_of_charge': 65, 'Charge_rate': 0.6}) is True) 
-        assert(battery_is_ok({'temperature': 70,'state_of_charge': 90, 'Charge_rate': 0.9}) is False)  
-        assert(battery_is_ok({'temperature': 46,'state_of_charge': 10, 'Charge_rate': 0.9}) is False)
+        assert(battery_is_ok({'temperature': 15,'state_of_charge': 65, 'charge_rate': 0.6}) is True) 
+        assert(battery_is_ok({'temperature': 70,'state_of_charge': 90, 'charge_rate': 0.9}) is False)  
+        assert(battery_is_ok({'temperature': 46,'state_of_charge': 10, 'charge_rate': 0.9}) is False)
 
 
 
