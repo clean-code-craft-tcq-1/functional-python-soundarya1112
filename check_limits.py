@@ -16,10 +16,10 @@ def battery_Limit_Check(bmsParam_name,bmsParam_value):
                    
 def battery_is_ok(battery_inputs):
         battery_range_check = battery_validationcheck(battery_inputs)
-            if len(battery_range_check) == 0
-                return True
-            else :
-                return False
+        if len(battery_range_check) == 0
+            return True
+        else :
+            return False
 
 if __name__ == '__main__':
         assert(battery_is_ok({'temperature': 15,'Soc': 65, 'Charge_rate': 0.6}) is True) 
